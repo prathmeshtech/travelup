@@ -15,7 +15,9 @@ const Header = () => {
             alt='the_logo'/>
             <div className='header_center'>
                 <input type="text" />
-                <SearchIcon/>
+                <div className='search_icon'>
+                   <SearchIcon/>
+                </div>
             </div>
 
             <div className='header_right'>

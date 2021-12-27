@@ -1,0 +1,32 @@
+.banner {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2020/04/Airbnb_Peru_Skylodge.jpg")
+    center center;
+}
+.banner_info {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding-top: 7rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 20rem;
+}
+.banner_info > h5 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.banner_info > button {
+  background-color: #ee0307;
+  color: rgb(255, 255, 255);
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner_info > button:hover {
+  background-color: white;
+  color: red;
+}
