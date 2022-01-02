@@ -1,6 +1,6 @@
 .banner {
   height: 70vh;
-  width: 100%;
+  width: 100vw;
   position: relative;
   background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2020/04/Airbnb_Peru_Skylodge.jpg")
     center center;
@@ -8,11 +8,24 @@
 .banner_info {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
-  padding-top: 7rem;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 40px;
-  width: 20rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 2rem;
+  width: 15rem;
+  height: 20rem;
+  object-fit: contain;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+.banner_searchButton {
+  background-color: rgb(0, 0, 0) !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ec0a0d !important;
 }
 .banner_info > h5 {
   margin-top: 40px;

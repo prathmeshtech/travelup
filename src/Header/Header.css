@@ -3,15 +3,16 @@
   justify-content: space-between;
   align-items: center;
   position: sticky;
+  height: 4rem;
   top: 0;
   background-color: rgb(255, 255, 255);
   z-index: 100;
-  width: 100%;
+  width: 100vw;
 }
 .header_icon {
   object-fit: contain;
-  height: 100px;
-  margin-left: 20px;
+  height: 4rem;
+  margin-left: 7rem;
 }
 
 .header_center {
@@ -29,7 +30,6 @@
   border: none;
   padding: 10px;
   outline-width: 0;
-
   /* width: 250px; */
 }
 .search_icon {
@@ -46,4 +46,14 @@
   justify-content: space-between;
   width: 15vw;
   margin-right: 80px;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 610px) {
+  .header_right {
+    display: none;
+  }
+  .header_icon {
+    display: none;
+  }
 }
